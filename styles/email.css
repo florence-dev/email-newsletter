@@ -54,7 +54,42 @@ header a {
   text-transform: uppercase;
   background: white;
 }
+h4 {
+text-align: center;
+padding-top: 70px;
+font-style: italic;
+font-weight: bold;
+}
+p{
+text-align: center;
+padding-bottom: 70px;
+font-size: large;
+}
+.secondary{
+    background: #f8f8f8;
+   
+}
 
+
+.gallery{
+  display: inline-block;
+  border:1px solid rgb(129, 126, 126);
+  margin: 10px;
+  width: 300px;
+
+}
+.gallery .description {
+  padding: 10px;
+  text-align: center;
+}
+.gallery:hover {
+  border: rgb(51, 50, 50);
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -70,5 +105,8 @@ header a {
 
   header h3 {
     font-size: 12px;
+  }
+  .gallery{
+    flex-direction: column;
   }
 }
