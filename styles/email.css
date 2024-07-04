@@ -1,9 +1,4 @@
-:root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
-}
+
 
 .contact-section h1{
 text-align: center;
@@ -61,77 +56,42 @@ textarea.contact-form-text{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.zero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  color: #fff;
+  margin-bottom: 100px;
+ min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-bg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.zone{
+ font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center; 
+}
+
+.none{
+  font-family: "Jersey 25 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
 
 
 .space {
