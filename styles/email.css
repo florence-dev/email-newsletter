@@ -215,7 +215,7 @@ margin: 0 30px;
  text-decoration: none;
 }
 
-.nav-links a:hover{
+.nav-links a:hover,nav li.activee a{
   color: rgb(231, 45, 107);
 }
 a:hover {
